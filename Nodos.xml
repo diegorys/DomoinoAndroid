@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<nodos>
+	<nodo>
+		<nombre>TVSamsung</nombre>
+		<descripcion>Mando a distancia TV Samsung</descripcion>
+		<protocolo>NECx</protocolo>
+		<canales>
+			<canal><nombre>ON/OFF</nombre><codigo>E0E040BF</codigo><emisiones>1</emisiones></canal>
+			<canal><nombre>Vol +</nombre><codigo>E0E0E01F</codigo><emisiones>1</emisiones></canal>
+			<canal><nombre>Vol -</nombre><codigo>E0E0D02F</codigo><emisiones>1</emisiones></canal>
+			<canal><nombre>tve1</nombre><codigo>E0E020DF</codigo><emisiones>6</emisiones></canal>
+			<canal><nombre>La 2</nombre><codigo>E0E0A05F</codigo><emisiones>6</emisiones></canal>
+			<canal><nombre>Antena 3</nombre><codigo>E0E0609F</codigo><emisiones>6</emisiones></canal>
+			<canal><nombre>Cuatro</nombre><codigo>E0E010EF</codigo><emisiones>2</emisiones></canal>
+			<canal><nombre>Tele 5</nombre><codigo>E0E0906F</codigo><emisiones>2</emisiones></canal>
+			<canal><nombre>La Sexta</nombre><codigo>E0E050AF</codigo><emisiones>2</emisiones></canal>
+			<canal><nombre>FDF</nombre><codigo>E0E030CF</codigo><emisiones>3</emisiones></canal>
+			<canal><nombre>Neox</nombre><codigo>E0E0B04F</codigo><emisiones>1</emisiones></canal>
+		</canales>
+	</nodo>
+	<nodo>
+		<nombre>DetectorGas</nombre>
+		<descripcion>Detector de gas</descripcion>
+		<protocolo>NEC</protocolo>
+		<canales>
+			<canal>
+				<nombre>Estado</nombre>
+				<codigo>ADA1200</codigo>
+				<emisiones>6</emisiones>
+			</canal>
+		</canales>
+	</nodo>
+	<nodo>
+		<nombre>Climatizador</nombre>
+		<descripcion>Climatizador</descripcion>
+		<protocolo>NEC</protocolo>
+		<canales>
+			<canal>
+				<nombre>Estado</nombre>
+				<codigo>ADA1200</codigo>
+				<emisiones>6</emisiones>
+			</canal>
+			<canal>
+				<nombre>Encender</nombre>
+				<codigo>ADA1200</codigo>
+				<emisiones>6</emisiones>
+			</canal>
+			<canal>
+				<nombre>Apagar</nombre>
+				<codigo>ADA1200</codigo>
+				<emisiones>6</emisiones>
+			</canal>
+			<canal>
+				<nombre>Enfriar</nombre>
+				<codigo>ADA1200</codigo>
+				<emisiones>6</emisiones>
+			</canal>
+			<canal>
+				<nombre>Calentar</nombre>
+				<codigo>ADA1200</codigo>
+				<emisiones>6</emisiones>
+			</canal>
+		</canales>
+	</nodo>
+	<nodo>
+		<nombre>DetectorPresencia</nombre>
+		<descripcion>Detector de presencia</descripcion>
+		<protocolo>NEC</protocolo>
+		<canales>
+			<canal>
+				<nombre>Estado</nombre>
+				<codigo>ADA1200</codigo>
+				<emisiones>6</emisiones>
+			</canal>
+		</canales>
+	</nodo>
+	<nodo>
+		<nombre>ControlLuz</nombre>
+		<descripcion>Control de luz</descripcion>
+		<protocolo>NEC</protocolo>
+		<canales>
+			<canal>
+				<nombre>Estado</nombre>
+				<codigo>ADA1200</codigo>
+				<emisiones>6</emisiones>
+			</canal>
+		</canales>
+	</nodo>
+</nodos>
