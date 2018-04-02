@@ -1,0 +1,15 @@
+#######################################
+# Syntax Coloring Map For ComunicacionIR
+####################################### 
+# Class
+#######################################
+
+ComunicacionIR	KEYWORD3
+
+#######################################
+# Methods and Functions 
+#######################################	
+
+recibirDatos	KEYWORD2
+enviarDatos		KEYWORD2
+enviar			KEYWORD2

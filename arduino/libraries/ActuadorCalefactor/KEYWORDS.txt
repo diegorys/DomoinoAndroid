@@ -1,0 +1,14 @@
+#######################################
+# Syntax Coloring Map For ActuadorCalefactor
+####################################### 
+# Class
+#######################################
+
+ActuadorCalefactor	KEYWORD3
+
+#######################################
+# Methods and Functions 
+#######################################	
+
+encender	KEYWORD2
+apagar		KEYWORD2

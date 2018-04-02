@@ -1,0 +1,14 @@
+#######################################
+# Syntax Coloring Map For ComunicacionBase
+####################################### 
+# Class
+#######################################
+
+ComunicacionBase	KEYWORD3
+
+#######################################
+# Methods and Functions 
+#######################################	
+
+recibirDatos	KEYWORD2
+enviarDatos		KEYWORD2
